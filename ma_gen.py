@@ -626,7 +626,7 @@ def parse_arguments():
     parser.add_argument("--topic", "-t", type=str, default="Diffusion Models", help="综述主题")
     parser.add_argument("--subtopics", "-s", type=str, default="image generation, text-to-image, video generation, Image Synthesis, Style Transfer", help="子主题，用逗号分隔")
     parser.add_argument("--output", "-o", type=str, default="./ma_output/", help="输出文件路径")
-    parser.add_argument("--api-key", "-k", type=str, default="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", help="OpenRouter API密钥")
+    parser.add_argument("--api-key", "-k", type=str, default="", help="OpenRouter API密钥")
     parser.add_argument("--base-url", "-u", type=str, default="https://openrouter.ai/api/v1", help="API基础URL")
     parser.add_argument("--db-path", "-d", type=str, default="D:/desktop/ZJU/acl300/academic_papers_db", help="向量数据库路径")
     parser.add_argument("--interpreter-model", type=str, default=ModelType.GEMINI.value, help="解释器智能体使用的模型")  # 🆕 新增
