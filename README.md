@@ -47,7 +47,7 @@
 url = 'https://mineru.net/api/v4/file-urls/batch'
 header = {
     'Content-Type': 'application/json',
-    'Authorization': 'Bearer eyJ0eXBlIjoiSldUIiwiYWxnIjoiSFM1MTIifQ.eyJqdGkiOiI2MjQwMjI4MiIsInJvbCI6IlJPTEVfUkVHSVNURVIiLCJpc3MiOiJPcGVuWExhYiIsImlhdCI6MTc1NTE1NzI0MywiY2xpZW50SWQiOiJsa3pkeDU3bnZ5MjJqa3BxOXgydyIsInBob25lIjoiIiwib3BlbklkIjpudWxsLCJ1dWlkIjoiM2Q1NTA2ZmYtMWQwMy00YTllLWFmZGUtMjg4N2RmY2VmYTFiIiwiZW1haWwiOiIiLCJleHAiOjE3NTYzNjY4NDN9.WbeV3ADCfmj7Qk-IWPkt77H41_qnS25GtHFWUFT5b8g_KykMKH7ojyicvn7hpbakdDwBdouUHNYLf8cEy4u7Mg'
+    'Authorization': ''
 }
 ```
 
@@ -481,3 +481,4 @@ acl300为示例数据库，由来自ACL 2025的300篇论文构成
 
 
 环境参考requirements
+
