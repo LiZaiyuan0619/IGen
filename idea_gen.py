@@ -558,7 +558,7 @@ def parse_arguments():
     parser.add_argument("--output", "-o", type=str, default="./idea_output/", 
                        help="输出文件路径")
     parser.add_argument("--api-key", "-k", type=str, 
-                       default="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", 
+                       default="", 
                        help="OpenRouter API密钥")
     parser.add_argument("--base-url", "-u", type=str, default="https://openrouter.ai/api/v1", 
                        help="API基础URL")
@@ -845,4 +845,5 @@ if __name__ == "__main__":
     if sys.platform == 'win32':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
     
+
     asyncio.run(main())
